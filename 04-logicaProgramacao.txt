@@ -1,0 +1,72 @@
+Aluno: Diogo Vila Nova do Nascimento.
+Curso: FAP Back-End Turma 2.
+
+Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados fornecidos pelo usuário:
+
+- Nome
+- Endereço
+- Cidade
+- CPF
+- RG
+- Idade
+- Nome do pai
+- Nome da mãe
+- Peso
+- Renda bruta
+
+Apresente as informações solicitadas no final do cadastro.
+
+var nome, endereco, cidade, cpf, rg, nome_pai, nome_mae como string;
+var idade como inteiro;
+var peso, renda_bruta como real;
+
+Escreva ("Digite os dados a seguir para realizar o seu cadastro");
+Escreva ("-------------------");
+
+Escreva ("Informe o nome:");
+Leia (nome);
+
+Escreva ("Informe o endereço:");
+Leia (endereco);
+
+Escreva ("Informe a cidade:");
+Leia (cidade);
+
+Escreva ("Informe o CPF:");
+Leia (cpf);
+
+Escreva ("Informe o RG:");
+Leia (rg);
+
+Escreva ("Informe a idade:");
+Leia (idade);
+
+Escreva ("Informe o nome do pai:");
+Leia (nome_pai);
+
+Escreva ("Informe o nome da mãe:");
+Leia (nome_mae);
+
+Escreva ("Informe o peso:");
+Leia (peso);
+
+Escreva ("Informe a renda bruta:");
+Leia (renda_bruta);
+
+//imprimir dados cadastrados pelo usuário
+
+Escreva ("");
+Escreva ("Informações cadastradas:");
+Escreva ("-----------------------");
+Escreva ("Nome: " + nome);
+Escreva ("Endereço: " + endereco);
+Escreva ("Cidade: " + cidade);
+Escreva ("CPF: " + cpf);
+Escreva ("RG: " + rg);
+Escreva ("Idade: " + idade);
+Escreva ("Nome do pai: " + nome_pai);
+Escreva ("Nome da mãe: " + nome_mae);
+Escreva ("Peso: " + peso);
+Escreva ("Renda bruta: " + renda_bruta);
+
+FimAlgoritmo
