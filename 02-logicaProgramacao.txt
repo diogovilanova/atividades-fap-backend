@@ -1,0 +1,14 @@
+Aluno: Diogo Vila Nova do Nascimento.
+Curso: FAP Back-End Turma 2.
+
+Em uma sala de aula, há vinte e cinco alunos.
+Entre eles, existem os grupos dos que gostam de Português (P) e os que gostam de Matemática (M).
+Eles são divididos conforme a ilustração 1 em anexo.
+
+Depois de um tempo, chegaram mais onze alunos nessa turma e o professor organizou-a conforme a ilustração 2 em anexo.
+
+No entanto, o professor se ausentou da sala por cinco minutos e, ao voltar, percebeu que um aluno que gosta de uma das disciplinas havia trocado de lugar com alguém que prefere a outra, e a turma ficou organizada conforme a ilustração 3 em anexo.
+
+Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu a cadeira em que houve a troca de alunos e qual a disciplina de cada um.
+
+Resposta: Todas as linhas do arquivo Ilustracao02.png tem 4+2 alunos de M e P isso tanto horizontal quanto vertical então na linhas em que o aluno que trocou esta elas ficam com 3+3 de cada disciplina ! ele deve ter achado o aluno que trocou assim só não consegui ainda saber de onde veio o aluno de P e pra onde foi o de M.
