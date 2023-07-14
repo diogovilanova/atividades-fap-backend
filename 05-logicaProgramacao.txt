@@ -14,7 +14,7 @@ Expressões:
 (   ) Jogador 4: (pontos != 100) or (moedas != 5) or not(enfrentou_chefe == Não) 
 
 Resposta:
-( V )	Jogador 1: (120 >= 100) and (10 >= 5) and (Sim == Sim)
-( F )	Jogador 2: (80 >= 100) and (2 >= 5) and (Não == Não)
-( V ) 	Jogador 3: (90 < 100) or (1 < 5) or (Sim == Sim)
-( V ) 	Jogador 4: (110 != 100) or (12 != 5) or not(Não == Não)
+( V )	Jogador 1: (120 >= 100) and (15 >= 5) and (Sim == Sim)
+( F )	Jogador 2: (99 >= 100) and (2 >= 5) and (Não == Não)
+( V ) 	Jogador 3: (100 < 100) or (5 < 5) or (Sim == Sim)
+( V ) 	Jogador 4: (101 != 100) or (4 != 5) or not(Não == Não)
