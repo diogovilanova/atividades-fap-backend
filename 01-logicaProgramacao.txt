@@ -15,4 +15,5 @@ Química: 1º lugar: Sócrates, 2º lugar: Aristóteles, 3º lugar: Platão.
 Física: 1º lugar: Aristóteles, 2º lugar: Platão, 3º lugar: Sócrates.
 Matemática: 1º lugar: Platão, 2º lugar: Sócrates, 3º lugar: Aristóteles.
 
-Resolução: A chave para resolução é o Aristóteles, sabendo que ele não ficou em primeiro lugar em química e que ficou com menos acerto que Platão em matemática. Sabendo também que cada um obteve, necessariamente, um primeiro lugar, um segundo lugar e um terceiro lugar.
+Resolução: 
+A chave para resolução é o Aristóteles, sabendo que ele não ficou em primeiro lugar em química e que ficou com menos acerto que Platão em matemática. Sabendo também que cada um obteve, necessariamente, um primeiro lugar, um segundo lugar e um terceiro lugar.
