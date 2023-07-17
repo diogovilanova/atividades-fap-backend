@@ -13,7 +13,9 @@ Cabe apenas uma pessoa? Sim.
 Tem pedal? Sim.
 Então, o transporte escolhido foi a bicicleta.
 
+Para chegar ao resultado de cada uma das opções, use o modelo abaixo.
 
+![unnamed](https://github.com/diogovilanova/atividades-fap-backend/assets/84420336/6f73d541-4199-4548-934f-8cd3470cc328)
 
 # Resposta:
 
