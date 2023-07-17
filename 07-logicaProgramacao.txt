@@ -1,0 +1,10 @@
+Escreva "Digite um número inteiro para a tabuada:"
+Leia numero
+
+Escreva "Tabuada do número ", numero, ":"
+Para i de 1 até 10 faça
+    resultado <- numero * i
+    Escreva numero, " x ", i, " = ", resultado
+FimPara
+
+FimAlgoritmo
