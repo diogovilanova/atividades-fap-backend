@@ -12,9 +12,14 @@
         alert(`O número é impar`);
     }
 
-    
+    let num3 = prompt("Digite um número: ");
+    if (num3 > 10) {
+        console.log(`O número ${num3} é maior que 10`);
+    } else {
+        console.log(`O número é menor ou igual a 10`);
+    }
 
-
+    //FALTAM DOIS
 
 //instalar modo sync
 /*
