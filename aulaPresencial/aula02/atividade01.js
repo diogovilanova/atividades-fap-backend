@@ -104,16 +104,16 @@ animalTipo("Cachorro");
 function operacaoMatematica (operacao) {
     switch (operacao) {
         case "Soma":
-            console.log("10 + 5 = " + 10 + 5);
+            console.log("10 + 5 = " + (10 + 5));
             break;
         case "Subtração":
-            console.log("10 - 5 = " + 10 - 5);
+            console.log("10 - 5 = " + (10 - 5));
             break;
         case "Multiplicação":
-            console.log("10 * 5 = " + 10 * 5);
+            console.log("10 * 5 = " + (10 * 5));
             break;
         case "Divisão":
-            console.log("10 / 5 = " + 10 / 5);
+            console.log("10 / 5 = " + (10 / 5));
             break;
         default:
             console.log("Operação inválida!");
