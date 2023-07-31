@@ -2,6 +2,11 @@ const readLine = require('readline-sync');
 
 const num1 = parseFloat(readLine.question("Digite o primeiro número: "));
 const num2 = parseFloat(readLine.question("Digite o segundo número: "));
+console.log(`Escolha qual operação vai efetuar com os dois números: 
+1. Soma
+2. Subtração
+3. Multiplicação
+4. Divisão`)
 const operacaoTipo = parseInt(readLine.question("Digite qual é a operação: "));
 operacao(num1, num2, operacaoTipo);
 
