@@ -54,8 +54,3 @@ console.log(arrayTest(parametro));
 function arrayTest(parametro) {
         return Array.isArray(parametro)
 }
-
-
-
-
-
