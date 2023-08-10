@@ -1,0 +1,42 @@
+Aluno: Diogo Vila Nova do Nascimento.
+Curso: FAP Back-End Turma 2.
+
+Em uma inscrição, o usuário informou os seguintes dados:
+
+- Nome: José Almeida da Silva
+- CPF: 12345678900
+- RG: 9517530
+- Altura: 1,78
+- Endereço: Rua A, 380 – Centro – Recife/PE
+
+No algoritmo, descreva como será:
+1. A proposta das variáveis;
+2. Elaborada a declaração das variáveis;
+3. Utilizado o comando de atribuição.
+
+
+Resposta:
+
+1- Proposta das variáveis:
+
+nome (variável para armazenar o nome completo)
+cpf (variável para armazenar o CPF)
+rg (variável para o RG)
+altura (variável para a altura)
+endereco (variável para armazenar o endereço completo)
+
+2- Elaborando a declaração de cada variavel:
+
+Declare nome como string;
+Declare cpf como string;
+Declare rg como string;
+Declare altura como real;
+Declare endereco como string;
+
+3- Exemplo com comando de atribuição:
+
+var nome = "José Almeida da Silva";
+var cpf = "12345678900";
+var rg = "9517530";
+var altura = 1.78;
+var endereco = "Rua A, 380 – Centro – Recife/PE";

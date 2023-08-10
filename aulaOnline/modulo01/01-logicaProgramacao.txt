@@ -1,0 +1,19 @@
+Aluno: Diogo Vila Nova do Nascimento.
+Curso: FAP Back-End Turma 2.
+
+Aristóteles, Sócrates e Platão estavam disputando uma competição de perguntas nas disciplinas de Física, Matemática e Química. Cada um obteve um primeiro lugar, um segundo lugar e um terceiro lugar.
+
+Sabendo que: 
+- Aristóteles não ficou em primeiro em Química; 
+- Sócrates perdeu para Platão em Física; 
+- Platão acertou mais que Aristóteles em Matemática.
+
+Informe quem ficou em 1º, 2º e 3º lugar em cada disciplina.
+
+Resposta: 
+Química: 1º lugar: Sócrates, 2º lugar: Aristóteles, 3º lugar: Platão.
+Física: 1º lugar: Aristóteles, 2º lugar: Platão, 3º lugar: Sócrates.
+Matemática: 1º lugar: Platão, 2º lugar: Sócrates, 3º lugar: Aristóteles.
+
+Resolução: 
+A chave para resolução é o Aristóteles, sabendo que ele não ficou em primeiro lugar em química e que ficou com menos acerto que Platão em matemática. Sabendo também que cada um obteve, necessariamente, um primeiro lugar, um segundo lugar e um terceiro lugar.
