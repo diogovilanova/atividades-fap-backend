@@ -47,3 +47,40 @@ function contagemRegressiva(inicio = 10) {
     }
 }
 contagemRegressiva();
+
+//4°
+const nome = readLine.question("Qual seu nome? ");
+const idade = readLine.question("Quantos anos você tem? ");
+const profissao = readLine.question("Qual sua profissão? ");
+
+function apresentacao(nome, idade, profissao) {
+    console.log(`Olá, eu sou ${nome}, tenho ${idade} anos e sou ${profissao}`);
+};
+apresentacao(nome, idade, profissao);
+
+//5°
+const texto = readLine.question("Digite um texto: ");
+const estilo = readLine.question("Digite qual o estilo: ");
+
+function mensagemPersonalizada(texto, estilo) {
+    switch (estilo) {
+        case 'normal':
+            console.log(texto);
+            break;
+        case 'negrito':
+            console.log(texto.bold());
+            break;
+        case 'italico':
+            console.log(texto.italics());
+            break;
+        case 'blink':
+            console.log(texto.blink());
+            break;
+        case 'strike':
+            console.log(texto.strike());
+            break;
+        default:
+            console.log("Estilo inválido!");
+    };
+}
+mensagemPersonalizada(texto, estilo);
