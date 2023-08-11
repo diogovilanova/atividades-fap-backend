@@ -15,10 +15,12 @@ pessoa1.filho = pessoa2;
 pessoa2.filho = pessoa3;
 
 function exibirVinculo(pessoa) {
-  let pessoaAtual = pessoa;
-  while (pessoaAtual !== null) {
-    console.log(`Nome: ${pessoaAtual.nome}, Idade: ${pessoaAtual.idade}`);
-    pessoaAtual = pessoaAtual.filho;
-  }
+  while (pessoa !== null) {
+    console.log(`Nome: ${pessoa.nome}, Idade: ${pessoa.idade}`);
+    if (pessoa.filho) {
+      console.log(`Filho: ${pessoa.filho.nome}`);
+    }
+    pessoa = pessoa.filho;
+  } 
 }
 exibirVinculo(pessoa1);
