@@ -49,6 +49,8 @@
 // }
 // console.log(`A soma dos valores é ${soma}`);
 
+
+
 // //3°
 // const numeros = [12, 5, 8, 21, 16, 7];
 // const numeroPar = [];
@@ -58,6 +60,18 @@
 //   }
 // }
 // console.log(numeroPar);
+
+// // ----- OU com For...in -----
+
+// const numeros = [12, 5, 8, 21, 16, 7];
+// const numeroPar = [];
+// for (let i in numeros) {
+//     const numero = numeros[i]
+//     if (numero % 2 === 0) {
+//         numeroPar.push(numero)
+//     }
+// }
+// console.log((numeroPar));
 
 // // ----- OU com For...Of -----
 
@@ -82,6 +96,21 @@
 // for (const idade19 in estudantes) {
 //     if (estudantes[idade19] === 19) {
 //         console.log(`${idade19}: ${estudantes[idade19]}`);
+//     }
+// }
+
+// // ----- OU com For...Of -----
+// const estudantes = {
+//     alice: 18,
+//     bob: 20,
+//     carol: 19,
+//     david: 21
+// }
+// const valorIdade = Object.values(estudantes);
+// for (let idade of valorIdade) {
+//     if (idade === 19) {
+//         const nome = Object.keys(estudantes).find(key => estudantes[key] === idade);
+//         console.log(`${nome}: ${idade}`);
 //     }
 // }
 
