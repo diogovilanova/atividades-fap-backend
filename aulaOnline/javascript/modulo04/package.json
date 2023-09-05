@@ -1,0 +1,17 @@
+{
+  "name": "modulo04",
+  "version": "1.0.0",
+  "main": "08-javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "description": ""
+}
