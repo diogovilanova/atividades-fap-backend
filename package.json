@@ -1,0 +1,24 @@
+{
+  "name": "atividades-fap-backend",
+  "version": "1.0.0",
+  "description": "## Descrição: Repositório com as atividades relacionadas ao curso da softex de formação acelerada Back End.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogovilanova/atividades-fap-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogovilanova/atividades-fap-backend/issues"
+  },
+  "homepage": "https://github.com/diogovilanova/atividades-fap-backend#readme",
+  "dependencies": {
+    "pg": "^8.11.3",
+    "sequelize": "^6.33.0"
+  }
+}
