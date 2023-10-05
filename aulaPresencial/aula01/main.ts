@@ -18,7 +18,3 @@ console.log(isNaN(numero2));
 console.log(isFinite(numero2));
 console.log(numero2.toExponential());
 
-
-
-
-
