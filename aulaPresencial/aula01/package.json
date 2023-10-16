@@ -1,7 +1,6 @@
 {
   "name": "aula01",
   "version": "1.0.0",
-  "description": "",
   "main": "main.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,6 @@
     "clear": "^0.1.0",
     "readline-sync": "^1.4.10",
     "ts-node": "^10.9.1"
-  }
+  },
+  "description": ""
 }
