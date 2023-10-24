@@ -1,0 +1,22 @@
++-------------------+ +-------------------+
+| Smartphone | | SmartphoneComCamera|
++-------------------+ +-------------------+
+| - marca: string | | - megapixels: int |
+| - modelo: string | +-------------------+
++-------------------+
+| + fazerChamada(numero: string): void |
+| + enviarMensagem(numero: string, mensagem: string): void |
++-----------------------------------------------------------+
+^
+|
+|
+|
+|
+v
++-------------------+
+| SmartphoneMain |
++-------------------+
+| |
++-------------------+
+| + constructor() |
++-------------------+
