@@ -39,8 +39,7 @@ class Aluno {
       this.alunos.forEach((aluno) => aluno.estudar());
     }
   }
-  
-  // Exemplo de uso
+ 
   const professorWaldeck = new Professor('Waldeck');
   const cursoTI = new Curso('Desenvolvimento back-end (NodeJS/Express)', professorWaldeck, 301);
   
